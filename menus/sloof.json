@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle sloof",
+        "command": "sloof:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "sloof",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "sloof:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
